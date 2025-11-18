@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BDD Suite" parallel="tests" thread-count="2">
+  <listeners>
+    <listener class-name="listeners.ExtentTestNGListener"/>
+  </listeners>
+  <test name="CucumberTest">
+    <classes>
+      <class name="runners.TestRunner"/>
+    </classes>
+  </test>
+</suite>

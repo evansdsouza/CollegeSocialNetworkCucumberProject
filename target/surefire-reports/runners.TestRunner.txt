@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 82.19 s <<< FAILURE! -- in runners.TestRunner
+runners.TestRunner.runScenario["Verify view student list after page reload", "View all Students"](2) -- Time elapsed: 18.29 s <<< FAILURE!
+java.lang.AssertionError: table not found!!
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepDefinitions.ViewAllSteps.i_should_still_see_the_student_list_table(ViewAllSteps.java:90)
+	at ✽.I should still see the student list table(file:///D:/tekstacsprint2/LoginBDDTest/src/test/resources/features/viewall.feature:18)
+
+runners.TestRunner.runScenario["Verify responsive view on mobile", "View all Students"](4) -- Time elapsed: 4.583 s <<< FAILURE!
+java.lang.AssertionError: Username field not found or not visible at mobile resolution.
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepDefinitions.ViewAllSteps.i_am_logged_in_with_mobile_viewport(ViewAllSteps.java:128)
+	at ✽.I am logged in with valid credentials on a mobile viewport(file:///D:/tekstacsprint2/LoginBDDTest/src/test/resources/features/viewall.feature:29)
+
