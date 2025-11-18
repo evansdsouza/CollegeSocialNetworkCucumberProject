@@ -1,9 +1,6 @@
 # CollegeSocialNetworkCucumberProject
 **BDD Test Automation Framework using Selenium, Cucumber, TestNG, and Java**
 
-[![Build Status](CI_BADGE_URL)]()
-[![License](LICENSE_BADGE_URL)]()
-
 ## Overview
 CollegeSocialNetworkCucumberProject is a Behavior-Driven Development (BDD) automation framework designed to test major workflows of a College Social Network application.  
 Built with **Java 11**, **Selenium 4**, **Cucumber 7**, **TestNG**, and **Maven**, it provides a clean Page Object Model structure, readable Gherkin scenarios, automatic driver management, runtime reporting, and reusable utilities.
